@@ -1,0 +1,14 @@
+<Combine fileversion="1.0" name="Mobius" description="Converted Visual Studio.NET Solution">
+<Entries>
+	<Entry filename=".\Mobius.prjx" />
+</Entries>
+<StartMode startupentry="Mobius" single="True"/>
+<Configurations active="Debug">
+<Configuration name="Debug">
+	<Entry name="Mobius" configurationname="Debug" build="False" />
+</Configuration>
+<Configuration name="Release">
+	<Entry name="Mobius" configurationname="Release" build="False" />
+</Configuration>
+</Configurations>
+</Combine>
