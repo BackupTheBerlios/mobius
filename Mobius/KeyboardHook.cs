@@ -8,15 +8,6 @@ using System.Windows.Forms;
 
 namespace Mobius  {
 	
-	/// <summary>
-	/// This class allows you to tap keyboard and mouse and / or to detect their activity even when an 
-	/// application runes in background or does not have any user interface at all. This class raises 
-	/// common .NET events with KeyEventArgs and MouseEventArgs so you can easily retrive any information you need.
-	/// </summary>
-	/// <remarks>
-	/// 	created by - Georgi
-	/// 	created on - 22.05.2004 13:08:01
-	/// </remarks>
 	public class UserActivityHook : object {
 		
 		/// <summary>
