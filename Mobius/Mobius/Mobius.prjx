@@ -1,0 +1,37 @@
+<Project name="Mobius" standardNamespace="Mobius" description="" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#" xmlns:convtool="urn:convtool">
+  <Contents>
+    <File name=".\About.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\AssemblyInfo.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\ExpandedTreeNode.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\KeyboardHook.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\LocEdit.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\MainForm.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\MemoryLoc.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\Options.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\SavedLoc.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\WindowsAPI.cs" buildaction="Compile" subtype="Code" />
+    <File name=".\Mobius.About.resources" buildaction="EmbedAsResource" subtype="Code" />
+    <File name=".\Mobius.LocEdit.resources" buildaction="EmbedAsResource" subtype="Code" />
+    <File name=".\Mobius.MainForm.resources" buildaction="EmbedAsResource" subtype="Code" />
+    <File name=".\Mobius.Mobius.About.resources" buildaction="EmbedAsResource" subtype="Code" />
+    <File name=".\Mobius.Mobius.MainForm.resources" buildaction="EmbedAsResource" subtype="Code" />
+    <File name=".\Mobius.Mobius.Options.resources" buildaction="EmbedAsResource" subtype="Code" />
+    <File name=".\Mobius.Options.resources" buildaction="EmbedAsResource" subtype="Code" />
+    <File name=".\App.ico" buildaction="Nothing" subtype="Code" />
+  </Contents>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="True" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="False" unsafecodeallowed="False" generateoverflowchecks="False" mainclass="" target="WinExe" definesymbols="DEBUG;TRACE" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\bin\Debug\" assembly="Mobius" />
+    </Configuration>
+    <Configuration runwithwarnings="True" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="False" optimize="True" unsafecodeallowed="False" generateoverflowchecks="False" mainclass="" target="WinExe" definesymbols="TRACE" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\bin\Release\" assembly="Mobius" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+</Project>
